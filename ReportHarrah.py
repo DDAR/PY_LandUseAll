@@ -89,7 +89,7 @@ if __name__ == '__main__':
     SummaryLayer = r'R:\disk_5\projects\county\planning\uga_analysis\harrah\Analysis_2015\StudyData.gdb\HarrahUGA_030716'
     baseFileLocation = r'R:\disk_5\projects\county\planning\uga_analysis\harrah\Analysis_2015'
     fileGeoLocation = r'R:\disk_5\projects\county\planning\uga_analysis\harrah\Analysis_2015\StudyData.gdb'
-    reportFile = os.path.join(baseFileLocation, "HarrahReport_030716.txt")
+    reportFile = os.path.join(baseFileLocation, "HarrahReport_030816.txt")
     print reportFile
     value_field = 'ACRES'
     value_vacant = 'ACRES_VAC'
