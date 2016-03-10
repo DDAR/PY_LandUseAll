@@ -86,10 +86,10 @@ if __name__ == '__main__':
 
     # Script tool params
 
-    SummaryLayer = r'R:\disk_5\projects\county\planning\uga_analysis\harrah\Analysis_2015\StudyData.gdb\HarrahUGA_030716'
+    SummaryLayer = r'R:\disk_5\projects\county\planning\uga_analysis\harrah\Analysis_2015\StudyData.gdb\HarrahOrgUGA_031016'
     baseFileLocation = r'R:\disk_5\projects\county\planning\uga_analysis\harrah\Analysis_2015'
     fileGeoLocation = r'R:\disk_5\projects\county\planning\uga_analysis\harrah\Analysis_2015\StudyData.gdb'
-    reportFile = os.path.join(baseFileLocation, "HarrahReport_030816.txt")
+    reportFile = os.path.join(baseFileLocation, "HarrahOrgReport_031016.txt")
     print reportFile
     value_field = 'ACRES'
     value_vacant = 'ACRES_VAC'
